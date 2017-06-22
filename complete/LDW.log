@@ -1,0 +1,385 @@
+2017-06-20 23:00:10.016  INFO 5804 --- [main] hello.Application                        : Starting Application on look-PC with PID 5804 (C:\_DEV_\mining\gs-consuming-rest-master_api\gs-consuming-rest-master\complete\target\classes started by look in C:\_DEV_\mining\gs-consuming-rest-master_api\gs-consuming-rest-master\complete)
+2017-06-20 23:00:10.024  INFO 5804 --- [main] hello.Application                        : No active profile set, falling back to default profiles: default
+2017-06-20 23:00:10.166  INFO 5804 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@76b10754: startup date [Tue Jun 20 23:00:10 CEST 2017]; root of context hierarchy
+2017-06-20 23:00:11.555  INFO 5804 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-06-20 23:00:11.566  INFO 5804 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2017-06-20 23:00:11.586  INFO 5804 --- [main] hello.Application                        : Started Application in 2.251 seconds (JVM running for 3.166)
+2017-06-20 23:00:12.635 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Created GET request for "http://127.0.0.1:42000/getstat"
+2017-06-20 23:00:12.774 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Setting request Accept header to [application/json, application/octet-stream]
+2017-06-20 23:00:12.778 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Writing [parameters] using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@6d5e222]
+2017-06-20 23:00:12.934 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : GET request for "http://127.0.0.1:42000/getstat" resulted in 200 (OK)
+2017-06-20 23:00:12.936 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Reading [class hello.Quote] as "application/octet-stream" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@6d5e222]
+2017-06-20 23:00:12.964  INFO 5804 --- [pool-1-thread-1] hello.Checker                            : Quote [method=getstat, error=null, start_time=1497991119, current_server=eu1-zcash.flypool.org:3333, available_servers=1, server_status=2, result=[Result [gpuid=0, cudaid=0, busid=0000:01:00.0, name=GeForce GTX 970, gpu_status=2, solver=0, temperature=77, gpu_power_usage=108, speed_sps=217, accepted_shares=41, rejected_shares=0, start_time=1497991120]]]
+2017-06-20 23:00:22.579 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Created GET request for "http://127.0.0.1:42000/getstat"
+2017-06-20 23:00:22.581 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Setting request Accept header to [application/json, application/octet-stream]
+2017-06-20 23:00:22.582 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Writing [parameters] using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@6d5e222]
+2017-06-20 23:00:22.586 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : GET request for "http://127.0.0.1:42000/getstat" resulted in 200 (OK)
+2017-06-20 23:00:22.587 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Reading [class hello.Quote] as "application/octet-stream" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@6d5e222]
+2017-06-20 23:00:22.589  INFO 5804 --- [pool-1-thread-1] hello.Checker                            : Quote [method=getstat, error=null, start_time=1497991119, current_server=eu1-zcash.flypool.org:3333, available_servers=1, server_status=2, result=[Result [gpuid=0, cudaid=0, busid=0000:01:00.0, name=GeForce GTX 970, gpu_status=2, solver=0, temperature=77, gpu_power_usage=108, speed_sps=217, accepted_shares=41, rejected_shares=0, start_time=1497991120]]]
+2017-06-20 23:00:32.580 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Created GET request for "http://127.0.0.1:42000/getstat"
+2017-06-20 23:00:32.582 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Setting request Accept header to [application/json, application/octet-stream]
+2017-06-20 23:00:32.583 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Writing [parameters] using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@6d5e222]
+2017-06-20 23:00:32.587 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : GET request for "http://127.0.0.1:42000/getstat" resulted in 200 (OK)
+2017-06-20 23:00:32.589 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Reading [class hello.Quote] as "application/octet-stream" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@6d5e222]
+2017-06-20 23:00:32.591  INFO 5804 --- [pool-1-thread-1] hello.Checker                            : Quote [method=getstat, error=null, start_time=1497991119, current_server=eu1-zcash.flypool.org:3333, available_servers=1, server_status=2, result=[Result [gpuid=0, cudaid=0, busid=0000:01:00.0, name=GeForce GTX 970, gpu_status=2, solver=0, temperature=77, gpu_power_usage=108, speed_sps=217, accepted_shares=44, rejected_shares=0, start_time=1497991120]]]
+2017-06-20 23:00:42.579 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Created GET request for "http://127.0.0.1:42000/getstat"
+2017-06-20 23:00:42.580 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Setting request Accept header to [application/json, application/octet-stream]
+2017-06-20 23:00:42.582 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Writing [parameters] using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@6d5e222]
+2017-06-20 23:00:42.586 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : GET request for "http://127.0.0.1:42000/getstat" resulted in 200 (OK)
+2017-06-20 23:00:42.588 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Reading [class hello.Quote] as "application/octet-stream" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@6d5e222]
+2017-06-20 23:00:42.590  INFO 5804 --- [pool-1-thread-1] hello.Checker                            : Quote [method=getstat, error=null, start_time=1497991119, current_server=eu1-zcash.flypool.org:3333, available_servers=1, server_status=2, result=[Result [gpuid=0, cudaid=0, busid=0000:01:00.0, name=GeForce GTX 970, gpu_status=2, solver=0, temperature=77, gpu_power_usage=107, speed_sps=224, accepted_shares=44, rejected_shares=0, start_time=1497991120]]]
+2017-06-20 23:00:52.579 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Created GET request for "http://127.0.0.1:42000/getstat"
+2017-06-20 23:00:52.581 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Setting request Accept header to [application/json, application/octet-stream]
+2017-06-20 23:00:52.583 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Writing [parameters] using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@6d5e222]
+2017-06-20 23:00:52.586 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : GET request for "http://127.0.0.1:42000/getstat" resulted in 200 (OK)
+2017-06-20 23:00:52.587 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Reading [class hello.Quote] as "application/octet-stream" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@6d5e222]
+2017-06-20 23:00:52.588  INFO 5804 --- [pool-1-thread-1] hello.Checker                            : Quote [method=getstat, error=null, start_time=1497991119, current_server=eu1-zcash.flypool.org:3333, available_servers=1, server_status=2, result=[Result [gpuid=0, cudaid=0, busid=0000:01:00.0, name=GeForce GTX 970, gpu_status=2, solver=0, temperature=77, gpu_power_usage=107, speed_sps=224, accepted_shares=44, rejected_shares=0, start_time=1497991120]]]
+2017-06-20 23:01:02.579 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Created GET request for "http://127.0.0.1:42000/getstat"
+2017-06-20 23:01:02.581 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Setting request Accept header to [application/json, application/octet-stream]
+2017-06-20 23:01:02.582 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Writing [parameters] using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@6d5e222]
+2017-06-20 23:01:02.586 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : GET request for "http://127.0.0.1:42000/getstat" resulted in 200 (OK)
+2017-06-20 23:01:02.587 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Reading [class hello.Quote] as "application/octet-stream" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@6d5e222]
+2017-06-20 23:01:02.589  INFO 5804 --- [pool-1-thread-1] hello.Checker                            : Quote [method=getstat, error=null, start_time=1497991119, current_server=eu1-zcash.flypool.org:3333, available_servers=1, server_status=2, result=[Result [gpuid=0, cudaid=0, busid=0000:01:00.0, name=GeForce GTX 970, gpu_status=2, solver=0, temperature=77, gpu_power_usage=107, speed_sps=224, accepted_shares=44, rejected_shares=0, start_time=1497991120]]]
+2017-06-20 23:01:12.579 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Created GET request for "http://127.0.0.1:42000/getstat"
+2017-06-20 23:01:12.581 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Setting request Accept header to [application/json, application/octet-stream]
+2017-06-20 23:01:12.582 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Writing [parameters] using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@6d5e222]
+2017-06-20 23:01:12.586 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : GET request for "http://127.0.0.1:42000/getstat" resulted in 200 (OK)
+2017-06-20 23:01:12.587 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Reading [class hello.Quote] as "application/octet-stream" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@6d5e222]
+2017-06-20 23:01:12.589  INFO 5804 --- [pool-1-thread-1] hello.Checker                            : Quote [method=getstat, error=null, start_time=1497991119, current_server=eu1-zcash.flypool.org:3333, available_servers=1, server_status=2, result=[Result [gpuid=0, cudaid=0, busid=0000:01:00.0, name=GeForce GTX 970, gpu_status=2, solver=0, temperature=77, gpu_power_usage=108, speed_sps=217, accepted_shares=45, rejected_shares=0, start_time=1497991120]]]
+2017-06-20 23:01:22.580 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Created GET request for "http://127.0.0.1:42000/getstat"
+2017-06-20 23:01:22.581 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Setting request Accept header to [application/json, application/octet-stream]
+2017-06-20 23:01:22.583 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Writing [parameters] using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@6d5e222]
+2017-06-20 23:01:22.586 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : GET request for "http://127.0.0.1:42000/getstat" resulted in 200 (OK)
+2017-06-20 23:01:22.588 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Reading [class hello.Quote] as "application/octet-stream" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@6d5e222]
+2017-06-20 23:01:22.590  INFO 5804 --- [pool-1-thread-1] hello.Checker                            : Quote [method=getstat, error=null, start_time=1497991119, current_server=eu1-zcash.flypool.org:3333, available_servers=1, server_status=2, result=[Result [gpuid=0, cudaid=0, busid=0000:01:00.0, name=GeForce GTX 970, gpu_status=2, solver=0, temperature=77, gpu_power_usage=108, speed_sps=217, accepted_shares=45, rejected_shares=0, start_time=1497991120]]]
+2017-06-20 23:01:32.580 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Created GET request for "http://127.0.0.1:42000/getstat"
+2017-06-20 23:01:32.581 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Setting request Accept header to [application/json, application/octet-stream]
+2017-06-20 23:01:32.583 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Writing [parameters] using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@6d5e222]
+2017-06-20 23:01:32.585 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : GET request for "http://127.0.0.1:42000/getstat" resulted in 200 (OK)
+2017-06-20 23:01:32.586 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Reading [class hello.Quote] as "application/octet-stream" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@6d5e222]
+2017-06-20 23:01:32.587  INFO 5804 --- [pool-1-thread-1] hello.Checker                            : Quote [method=getstat, error=null, start_time=1497991119, current_server=eu1-zcash.flypool.org:3333, available_servers=1, server_status=2, result=[Result [gpuid=0, cudaid=0, busid=0000:01:00.0, name=GeForce GTX 970, gpu_status=2, solver=0, temperature=77, gpu_power_usage=108, speed_sps=217, accepted_shares=47, rejected_shares=0, start_time=1497991120]]]
+2017-06-20 23:01:42.580 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Created GET request for "http://127.0.0.1:42000/getstat"
+2017-06-20 23:01:42.581 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Setting request Accept header to [application/json, application/octet-stream]
+2017-06-20 23:01:42.583 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Writing [parameters] using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@6d5e222]
+2017-06-20 23:01:42.586 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : GET request for "http://127.0.0.1:42000/getstat" resulted in 200 (OK)
+2017-06-20 23:01:42.588 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Reading [class hello.Quote] as "application/octet-stream" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@6d5e222]
+2017-06-20 23:01:42.589  INFO 5804 --- [pool-1-thread-1] hello.Checker                            : Quote [method=getstat, error=null, start_time=1497991119, current_server=eu1-zcash.flypool.org:3333, available_servers=1, server_status=2, result=[Result [gpuid=0, cudaid=0, busid=0000:01:00.0, name=GeForce GTX 970, gpu_status=2, solver=0, temperature=77, gpu_power_usage=108, speed_sps=217, accepted_shares=47, rejected_shares=0, start_time=1497991120]]]
+2017-06-20 23:01:52.580 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Created GET request for "http://127.0.0.1:42000/getstat"
+2017-06-20 23:01:52.582 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Setting request Accept header to [application/json, application/octet-stream]
+2017-06-20 23:01:52.583 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Writing [parameters] using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@6d5e222]
+2017-06-20 23:01:52.586 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : GET request for "http://127.0.0.1:42000/getstat" resulted in 200 (OK)
+2017-06-20 23:01:52.587 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Reading [class hello.Quote] as "application/octet-stream" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@6d5e222]
+2017-06-20 23:01:52.589  INFO 5804 --- [pool-1-thread-1] hello.Checker                            : Quote [method=getstat, error=null, start_time=1497991119, current_server=eu1-zcash.flypool.org:3333, available_servers=1, server_status=2, result=[Result [gpuid=0, cudaid=0, busid=0000:01:00.0, name=GeForce GTX 970, gpu_status=2, solver=0, temperature=77, gpu_power_usage=108, speed_sps=217, accepted_shares=47, rejected_shares=0, start_time=1497991120]]]
+2017-06-20 23:02:02.580 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Created GET request for "http://127.0.0.1:42000/getstat"
+2017-06-20 23:02:02.582 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Setting request Accept header to [application/json, application/octet-stream]
+2017-06-20 23:02:02.583 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Writing [parameters] using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@6d5e222]
+2017-06-20 23:02:02.586 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : GET request for "http://127.0.0.1:42000/getstat" resulted in 200 (OK)
+2017-06-20 23:02:02.588 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Reading [class hello.Quote] as "application/octet-stream" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@6d5e222]
+2017-06-20 23:02:02.589  INFO 5804 --- [pool-1-thread-1] hello.Checker                            : Quote [method=getstat, error=null, start_time=1497991119, current_server=eu1-zcash.flypool.org:3333, available_servers=1, server_status=2, result=[Result [gpuid=0, cudaid=0, busid=0000:01:00.0, name=GeForce GTX 970, gpu_status=2, solver=0, temperature=77, gpu_power_usage=108, speed_sps=217, accepted_shares=47, rejected_shares=0, start_time=1497991120]]]
+2017-06-20 23:02:12.580 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Created GET request for "http://127.0.0.1:42000/getstat"
+2017-06-20 23:02:12.582 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Setting request Accept header to [application/json, application/octet-stream]
+2017-06-20 23:02:12.583 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Writing [parameters] using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@6d5e222]
+2017-06-20 23:02:12.587 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : GET request for "http://127.0.0.1:42000/getstat" resulted in 200 (OK)
+2017-06-20 23:02:12.587 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Reading [class hello.Quote] as "application/octet-stream" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@6d5e222]
+2017-06-20 23:02:12.589  INFO 5804 --- [pool-1-thread-1] hello.Checker                            : Quote [method=getstat, error=null, start_time=1497991119, current_server=eu1-zcash.flypool.org:3333, available_servers=1, server_status=2, result=[Result [gpuid=0, cudaid=0, busid=0000:01:00.0, name=GeForce GTX 970, gpu_status=2, solver=0, temperature=77, gpu_power_usage=107, speed_sps=216, accepted_shares=48, rejected_shares=0, start_time=1497991120]]]
+2017-06-20 23:02:22.580 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Created GET request for "http://127.0.0.1:42000/getstat"
+2017-06-20 23:02:22.582 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Setting request Accept header to [application/json, application/octet-stream]
+2017-06-20 23:02:22.583 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Writing [parameters] using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@6d5e222]
+2017-06-20 23:02:22.587 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : GET request for "http://127.0.0.1:42000/getstat" resulted in 200 (OK)
+2017-06-20 23:02:22.589 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Reading [class hello.Quote] as "application/octet-stream" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@6d5e222]
+2017-06-20 23:02:22.591  INFO 5804 --- [pool-1-thread-1] hello.Checker                            : Quote [method=getstat, error=null, start_time=1497991119, current_server=eu1-zcash.flypool.org:3333, available_servers=1, server_status=2, result=[Result [gpuid=0, cudaid=0, busid=0000:01:00.0, name=GeForce GTX 970, gpu_status=2, solver=0, temperature=77, gpu_power_usage=107, speed_sps=216, accepted_shares=50, rejected_shares=0, start_time=1497991120]]]
+2017-06-20 23:02:32.581 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Created GET request for "http://127.0.0.1:42000/getstat"
+2017-06-20 23:02:32.583 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Setting request Accept header to [application/json, application/octet-stream]
+2017-06-20 23:02:32.584 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Writing [parameters] using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@6d5e222]
+2017-06-20 23:02:32.587 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : GET request for "http://127.0.0.1:42000/getstat" resulted in 200 (OK)
+2017-06-20 23:02:32.588 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Reading [class hello.Quote] as "application/octet-stream" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@6d5e222]
+2017-06-20 23:02:32.590  INFO 5804 --- [pool-1-thread-1] hello.Checker                            : Quote [method=getstat, error=null, start_time=1497991119, current_server=eu1-zcash.flypool.org:3333, available_servers=1, server_status=2, result=[Result [gpuid=0, cudaid=0, busid=0000:01:00.0, name=GeForce GTX 970, gpu_status=2, solver=0, temperature=77, gpu_power_usage=107, speed_sps=216, accepted_shares=50, rejected_shares=0, start_time=1497991120]]]
+2017-06-20 23:02:42.582 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Created GET request for "http://127.0.0.1:42000/getstat"
+2017-06-20 23:02:42.583 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Setting request Accept header to [application/json, application/octet-stream]
+2017-06-20 23:02:42.584 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Writing [parameters] using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@6d5e222]
+2017-06-20 23:02:42.588 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : GET request for "http://127.0.0.1:42000/getstat" resulted in 200 (OK)
+2017-06-20 23:02:42.589 DEBUG 5804 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Reading [class hello.Quote] as "application/octet-stream" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@6d5e222]
+2017-06-20 23:02:42.605  INFO 5804 --- [pool-1-thread-1] hello.Checker                            : Quote [method=getstat, error=null, start_time=1497991119, current_server=eu1-zcash.flypool.org:3333, available_servers=1, server_status=2, result=[Result [gpuid=0, cudaid=0, busid=0000:01:00.0, name=GeForce GTX 970, gpu_status=2, solver=0, temperature=77, gpu_power_usage=107, speed_sps=215, accepted_shares=51, rejected_shares=0, start_time=1497991120]]]
+2017-06-20 23:03:07.287  INFO 4312 --- [main] hello.Application                        : Starting Application on look-PC with PID 4312 (C:\_DEV_\mining\gs-consuming-rest-master_api\gs-consuming-rest-master\complete\target\classes started by look in C:\_DEV_\mining\gs-consuming-rest-master_api\gs-consuming-rest-master\complete)
+2017-06-20 23:03:07.297  INFO 4312 --- [main] hello.Application                        : No active profile set, falling back to default profiles: default
+2017-06-20 23:03:07.421  INFO 4312 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7671cb68: startup date [Tue Jun 20 23:03:07 CEST 2017]; root of context hierarchy
+2017-06-20 23:03:09.068  INFO 4312 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-06-20 23:03:09.079  INFO 4312 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2017-06-20 23:03:09.097  INFO 4312 --- [main] hello.Application                        : Started Application in 2.578 seconds (JVM running for 3.656)
+2017-06-20 23:03:10.162 DEBUG 4312 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Created GET request for "http://127.0.0.1:42000/getstat"
+2017-06-20 23:03:10.331 DEBUG 4312 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Setting request Accept header to [application/json, application/octet-stream]
+2017-06-20 23:03:10.386 DEBUG 4312 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Writing [parameters] using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@747c4e14]
+2017-06-20 23:03:10.613 DEBUG 4312 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : GET request for "http://127.0.0.1:42000/getstat" resulted in 200 (OK)
+2017-06-20 23:03:10.615 DEBUG 4312 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Reading [class hello.Quote] as "application/octet-stream" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@747c4e14]
+2017-06-20 23:03:10.644  INFO 4312 --- [pool-1-thread-1] hello.Checker                            : Quote [method=getstat, error=null, start_time=1497991119, current_server=eu1-zcash.flypool.org:3333, available_servers=1, server_status=2, result=[Result [gpuid=0, cudaid=0, busid=0000:01:00.0, name=GeForce GTX 970, gpu_status=2, solver=0, temperature=76, gpu_power_usage=89, speed_sps=217, accepted_shares=51, rejected_shares=0, start_time=1497991120]]]
+2017-06-20 23:03:10.645  INFO 4312 --- [pool-1-thread-1] hello.ScheduledCheck                     : All works
+2017-06-20 23:03:20.090 DEBUG 4312 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Created GET request for "http://127.0.0.1:42000/getstat"
+2017-06-20 23:03:20.091 DEBUG 4312 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Setting request Accept header to [application/json, application/octet-stream]
+2017-06-20 23:03:20.093 DEBUG 4312 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Writing [parameters] using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@747c4e14]
+2017-06-20 23:03:20.096 DEBUG 4312 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : GET request for "http://127.0.0.1:42000/getstat" resulted in 200 (OK)
+2017-06-20 23:03:20.097 DEBUG 4312 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Reading [class hello.Quote] as "application/octet-stream" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@747c4e14]
+2017-06-20 23:03:20.099  INFO 4312 --- [pool-1-thread-1] hello.Checker                            : Quote [method=getstat, error=null, start_time=1497991119, current_server=eu1-zcash.flypool.org:3333, available_servers=1, server_status=2, result=[Result [gpuid=0, cudaid=0, busid=0000:01:00.0, name=GeForce GTX 970, gpu_status=2, solver=0, temperature=76, gpu_power_usage=89, speed_sps=217, accepted_shares=51, rejected_shares=0, start_time=1497991120]]]
+2017-06-20 23:03:20.100  INFO 4312 --- [pool-1-thread-1] hello.ScheduledCheck                     : All works
+2017-06-20 23:03:30.091 DEBUG 4312 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Created GET request for "http://127.0.0.1:42000/getstat"
+2017-06-20 23:03:30.092 DEBUG 4312 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Setting request Accept header to [application/json, application/octet-stream]
+2017-06-20 23:03:30.093 DEBUG 4312 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Writing [parameters] using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@747c4e14]
+2017-06-20 23:03:30.097 DEBUG 4312 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : GET request for "http://127.0.0.1:42000/getstat" resulted in 200 (OK)
+2017-06-20 23:03:30.098 DEBUG 4312 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Reading [class hello.Quote] as "application/octet-stream" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@747c4e14]
+2017-06-20 23:03:30.100  INFO 4312 --- [pool-1-thread-1] hello.Checker                            : Quote [method=getstat, error=null, start_time=1497991119, current_server=eu1-zcash.flypool.org:3333, available_servers=1, server_status=2, result=[Result [gpuid=0, cudaid=0, busid=0000:01:00.0, name=GeForce GTX 970, gpu_status=2, solver=0, temperature=76, gpu_power_usage=89, speed_sps=217, accepted_shares=51, rejected_shares=0, start_time=1497991120]]]
+2017-06-20 23:03:30.100  INFO 4312 --- [pool-1-thread-1] hello.ScheduledCheck                     : All works
+2017-06-20 23:03:40.090 DEBUG 4312 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Created GET request for "http://127.0.0.1:42000/getstat"
+2017-06-20 23:03:40.091 DEBUG 4312 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Setting request Accept header to [application/json, application/octet-stream]
+2017-06-20 23:03:40.091 DEBUG 4312 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Writing [parameters] using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@747c4e14]
+2017-06-20 23:03:41.108 ERROR 4312 --- [pool-1-thread-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task.
+
+org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://127.0.0.1:42000/getstat": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:666) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:613) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:531) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at hello.Checker.check(Checker.java:29) ~[classes/:na]
+	at hello.ScheduledCheck.checkMiner(ScheduledCheck.java:20) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_101]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_101]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_101]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_101]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65) ~[spring-context-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [na:1.8.0_101]
+	at java.util.concurrent.FutureTask.runAndReset(Unknown Source) [na:1.8.0_101]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(Unknown Source) [na:1.8.0_101]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) [na:1.8.0_101]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_101]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_101]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_101]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[na:1.8.0_101]
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source) ~[na:1.8.0_101]
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source) ~[na:1.8.0_101]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source) ~[na:1.8.0_101]
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_101]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_101]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[na:1.8.0_101]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0_101]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0_101]
+	at sun.net.NetworkClient.doConnect(Unknown Source) ~[na:1.8.0_101]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[na:1.8.0_101]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[na:1.8.0_101]
+	at sun.net.www.http.HttpClient.<init>(Unknown Source) ~[na:1.8.0_101]
+	at sun.net.www.http.HttpClient.New(Unknown Source) ~[na:1.8.0_101]
+	at sun.net.www.http.HttpClient.New(Unknown Source) ~[na:1.8.0_101]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source) ~[na:1.8.0_101]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source) ~[na:1.8.0_101]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source) ~[na:1.8.0_101]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source) ~[na:1.8.0_101]
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:78) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:652) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	... 17 common frames omitted
+
+2017-06-20 23:03:50.091 DEBUG 4312 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Created GET request for "http://127.0.0.1:42000/getstat"
+2017-06-20 23:03:50.092 DEBUG 4312 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Setting request Accept header to [application/json, application/octet-stream]
+2017-06-20 23:03:50.093 DEBUG 4312 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Writing [parameters] using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@747c4e14]
+2017-06-20 23:03:51.099 ERROR 4312 --- [pool-1-thread-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task.
+
+org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://127.0.0.1:42000/getstat": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:666) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:613) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:531) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at hello.Checker.check(Checker.java:29) ~[classes/:na]
+	at hello.ScheduledCheck.checkMiner(ScheduledCheck.java:20) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_101]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_101]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_101]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_101]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65) ~[spring-context-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [na:1.8.0_101]
+	at java.util.concurrent.FutureTask.runAndReset(Unknown Source) [na:1.8.0_101]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(Unknown Source) [na:1.8.0_101]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) [na:1.8.0_101]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_101]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_101]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_101]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[na:1.8.0_101]
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source) ~[na:1.8.0_101]
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source) ~[na:1.8.0_101]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source) ~[na:1.8.0_101]
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_101]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_101]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[na:1.8.0_101]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0_101]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0_101]
+	at sun.net.NetworkClient.doConnect(Unknown Source) ~[na:1.8.0_101]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[na:1.8.0_101]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[na:1.8.0_101]
+	at sun.net.www.http.HttpClient.<init>(Unknown Source) ~[na:1.8.0_101]
+	at sun.net.www.http.HttpClient.New(Unknown Source) ~[na:1.8.0_101]
+	at sun.net.www.http.HttpClient.New(Unknown Source) ~[na:1.8.0_101]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source) ~[na:1.8.0_101]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source) ~[na:1.8.0_101]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source) ~[na:1.8.0_101]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source) ~[na:1.8.0_101]
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:78) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:652) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	... 17 common frames omitted
+
+2017-06-20 23:05:14.649  INFO 8512 --- [main] hello.Application                        : Starting Application on look-PC with PID 8512 (C:\_DEV_\mining\gs-consuming-rest-master_api\gs-consuming-rest-master\complete\target\classes started by look in C:\_DEV_\mining\gs-consuming-rest-master_api\gs-consuming-rest-master\complete)
+2017-06-20 23:05:14.654  INFO 8512 --- [main] hello.Application                        : No active profile set, falling back to default profiles: default
+2017-06-20 23:05:14.779  INFO 8512 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@76b10754: startup date [Tue Jun 20 23:05:14 CEST 2017]; root of context hierarchy
+2017-06-20 23:05:16.256  INFO 8512 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-06-20 23:05:16.265  INFO 8512 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2017-06-20 23:05:16.279  INFO 8512 --- [main] hello.Application                        : Started Application in 2.154 seconds (JVM running for 2.97)
+2017-06-20 23:05:17.329 DEBUG 8512 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Created GET request for "http://127.0.0.1:42000/getstat"
+2017-06-20 23:05:17.461 DEBUG 8512 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Setting request Accept header to [application/json, application/octet-stream]
+2017-06-20 23:05:17.466 DEBUG 8512 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Writing [parameters] using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@25ce6efd]
+2017-06-20 23:05:18.645  INFO 8512 --- [pool-1-thread-1] hello.ScheduledCheck                     : Restarting mashines
+2017-06-20 23:05:27.276 DEBUG 8512 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Created GET request for "http://127.0.0.1:42000/getstat"
+2017-06-20 23:05:27.277 DEBUG 8512 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Setting request Accept header to [application/json, application/octet-stream]
+2017-06-20 23:05:27.278 DEBUG 8512 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Writing [parameters] using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@25ce6efd]
+2017-06-20 23:05:28.281  INFO 8512 --- [pool-1-thread-1] hello.ScheduledCheck                     : Restarting mashines
+2017-06-20 23:05:37.275 DEBUG 8512 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Created GET request for "http://127.0.0.1:42000/getstat"
+2017-06-20 23:05:37.276 DEBUG 8512 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Setting request Accept header to [application/json, application/octet-stream]
+2017-06-20 23:05:37.278 DEBUG 8512 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Writing [parameters] using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@25ce6efd]
+2017-06-20 23:05:39.428 DEBUG 8512 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : GET request for "http://127.0.0.1:42000/getstat" resulted in 200 (OK)
+2017-06-20 23:05:39.431 DEBUG 8512 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Reading [class hello.Quote] as "application/octet-stream" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@25ce6efd]
+2017-06-20 23:05:39.470  INFO 8512 --- [pool-1-thread-1] hello.Checker                            : Quote [method=getstat, error=null, start_time=1497992736, current_server=eu1-zcash.flypool.org:3333, available_servers=1, server_status=2, result=[Result [gpuid=0, cudaid=0, busid=0000:01:00.0, name=GeForce GTX 970, gpu_status=1, solver=-1, temperature=0, gpu_power_usage=0, speed_sps=0, accepted_shares=0, rejected_shares=0, start_time=1497992737]]]
+2017-06-20 23:05:39.471  INFO 8512 --- [pool-1-thread-1] hello.ScheduledCheck                     : Restarting mashines
+2017-06-20 23:05:47.276 DEBUG 8512 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Created GET request for "http://127.0.0.1:42000/getstat"
+2017-06-20 23:05:47.277 DEBUG 8512 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Setting request Accept header to [application/json, application/octet-stream]
+2017-06-20 23:05:47.278 DEBUG 8512 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Writing [parameters] using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@25ce6efd]
+2017-06-20 23:05:47.282 DEBUG 8512 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : GET request for "http://127.0.0.1:42000/getstat" resulted in 200 (OK)
+2017-06-20 23:05:47.283 DEBUG 8512 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Reading [class hello.Quote] as "application/octet-stream" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@25ce6efd]
+2017-06-20 23:05:47.285  INFO 8512 --- [pool-1-thread-1] hello.Checker                            : Quote [method=getstat, error=null, start_time=1497992736, current_server=eu1-zcash.flypool.org:3333, available_servers=1, server_status=2, result=[Result [gpuid=0, cudaid=0, busid=0000:01:00.0, name=GeForce GTX 970, gpu_status=2, solver=0, temperature=0, gpu_power_usage=0, speed_sps=0, accepted_shares=0, rejected_shares=0, start_time=1497992737]]]
+2017-06-20 23:05:47.286  INFO 8512 --- [pool-1-thread-1] hello.ScheduledCheck                     : Restarting mashines
+2017-06-20 23:05:57.274 DEBUG 8512 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Created GET request for "http://127.0.0.1:42000/getstat"
+2017-06-20 23:05:57.276 DEBUG 8512 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Setting request Accept header to [application/json, application/octet-stream]
+2017-06-20 23:05:57.277 DEBUG 8512 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Writing [parameters] using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@25ce6efd]
+2017-06-20 23:05:57.280 DEBUG 8512 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : GET request for "http://127.0.0.1:42000/getstat" resulted in 200 (OK)
+2017-06-20 23:05:57.281 DEBUG 8512 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Reading [class hello.Quote] as "application/octet-stream" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@25ce6efd]
+2017-06-20 23:05:57.283  INFO 8512 --- [pool-1-thread-1] hello.Checker                            : Quote [method=getstat, error=null, start_time=1497992736, current_server=eu1-zcash.flypool.org:3333, available_servers=1, server_status=2, result=[Result [gpuid=0, cudaid=0, busid=0000:01:00.0, name=GeForce GTX 970, gpu_status=2, solver=0, temperature=0, gpu_power_usage=0, speed_sps=0, accepted_shares=0, rejected_shares=0, start_time=1497992737]]]
+2017-06-20 23:05:57.284  INFO 8512 --- [pool-1-thread-1] hello.ScheduledCheck                     : Restarting mashines
+2017-06-20 23:06:07.275 DEBUG 8512 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Created GET request for "http://127.0.0.1:42000/getstat"
+2017-06-20 23:06:07.277 DEBUG 8512 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Setting request Accept header to [application/json, application/octet-stream]
+2017-06-20 23:06:07.277 DEBUG 8512 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Writing [parameters] using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@25ce6efd]
+2017-06-20 23:06:07.281 DEBUG 8512 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : GET request for "http://127.0.0.1:42000/getstat" resulted in 200 (OK)
+2017-06-20 23:06:07.282 DEBUG 8512 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Reading [class hello.Quote] as "application/octet-stream" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@25ce6efd]
+2017-06-20 23:06:07.284  INFO 8512 --- [pool-1-thread-1] hello.Checker                            : Quote [method=getstat, error=null, start_time=1497992736, current_server=eu1-zcash.flypool.org:3333, available_servers=1, server_status=2, result=[Result [gpuid=0, cudaid=0, busid=0000:01:00.0, name=GeForce GTX 970, gpu_status=2, solver=0, temperature=67, gpu_power_usage=108, speed_sps=239, accepted_shares=0, rejected_shares=0, start_time=1497992737]]]
+2017-06-20 23:06:07.284  INFO 8512 --- [pool-1-thread-1] hello.ScheduledCheck                     : All works
+2017-06-20 23:06:17.275 DEBUG 8512 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Created GET request for "http://127.0.0.1:42000/getstat"
+2017-06-20 23:06:17.276 DEBUG 8512 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Setting request Accept header to [application/json, application/octet-stream]
+2017-06-20 23:06:17.278 DEBUG 8512 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Writing [parameters] using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@25ce6efd]
+2017-06-20 23:06:17.281 DEBUG 8512 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : GET request for "http://127.0.0.1:42000/getstat" resulted in 200 (OK)
+2017-06-20 23:06:17.282 DEBUG 8512 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Reading [class hello.Quote] as "application/octet-stream" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@25ce6efd]
+2017-06-20 23:06:17.283  INFO 8512 --- [pool-1-thread-1] hello.Checker                            : Quote [method=getstat, error=null, start_time=1497992736, current_server=eu1-zcash.flypool.org:3333, available_servers=1, server_status=2, result=[Result [gpuid=0, cudaid=0, busid=0000:01:00.0, name=GeForce GTX 970, gpu_status=2, solver=0, temperature=67, gpu_power_usage=108, speed_sps=239, accepted_shares=0, rejected_shares=0, start_time=1497992737]]]
+2017-06-20 23:06:17.284  INFO 8512 --- [pool-1-thread-1] hello.ScheduledCheck                     : All works
+2017-06-20 23:06:27.275 DEBUG 8512 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Created GET request for "http://127.0.0.1:42000/getstat"
+2017-06-20 23:06:27.276 DEBUG 8512 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Setting request Accept header to [application/json, application/octet-stream]
+2017-06-20 23:06:27.277 DEBUG 8512 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Writing [parameters] using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@25ce6efd]
+2017-06-20 23:06:27.280 DEBUG 8512 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : GET request for "http://127.0.0.1:42000/getstat" resulted in 200 (OK)
+2017-06-20 23:06:27.281 DEBUG 8512 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Reading [class hello.Quote] as "application/octet-stream" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@25ce6efd]
+2017-06-20 23:06:27.283  INFO 8512 --- [pool-1-thread-1] hello.Checker                            : Quote [method=getstat, error=null, start_time=1497992736, current_server=eu1-zcash.flypool.org:3333, available_servers=1, server_status=2, result=[Result [gpuid=0, cudaid=0, busid=0000:01:00.0, name=GeForce GTX 970, gpu_status=2, solver=0, temperature=67, gpu_power_usage=108, speed_sps=239, accepted_shares=0, rejected_shares=0, start_time=1497992737]]]
+2017-06-20 23:06:27.284  INFO 8512 --- [pool-1-thread-1] hello.ScheduledCheck                     : All works
+2017-06-20 23:08:10.740  INFO 1284 --- [main] hello.ApplicationTest                    : Starting ApplicationTest on look-PC with PID 1284 (started by look in c:\_DEV_\mining\gs-consuming-rest-master_api\gs-consuming-rest-master\complete)
+2017-06-20 23:08:10.744  INFO 1284 --- [main] hello.ApplicationTest                    : No active profile set, falling back to default profiles: default
+2017-06-20 23:08:10.823  INFO 1284 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@572433e7: startup date [Tue Jun 20 23:08:10 CEST 2017]; root of context hierarchy
+2017-06-20 23:08:13.120  INFO 1284 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2017-06-20 23:08:13.146  INFO 1284 --- [main] hello.ApplicationTest                    : Started ApplicationTest in 3.315 seconds (JVM running for 5.169)
+2017-06-20 23:08:13.381  INFO 1284 --- [Thread-2] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@572433e7: startup date [Tue Jun 20 23:08:10 CEST 2017]; root of context hierarchy
+2017-06-20 23:11:06.666  INFO 6328 --- [main] hello.Application                        : Starting Application on look-PC with PID 6328 (C:\_DEV_\mining\gs-consuming-rest-master_api\gs-consuming-rest-master\complete\target\classes started by look in C:\_DEV_\mining\gs-consuming-rest-master_api\gs-consuming-rest-master\complete)
+2017-06-20 23:11:06.672  INFO 6328 --- [main] hello.Application                        : No active profile set, falling back to default profiles: default
+2017-06-20 23:11:06.784  INFO 6328 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@76b10754: startup date [Tue Jun 20 23:11:06 CEST 2017]; root of context hierarchy
+2017-06-20 23:11:08.024  INFO 6328 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-06-20 23:11:08.036  INFO 6328 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2017-06-20 23:11:08.051  INFO 6328 --- [main] hello.Application                        : Started Application in 1.929 seconds (JVM running for 2.695)
+2017-06-20 23:11:09.098 DEBUG 6328 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Created GET request for "http://127.0.0.1:42000/getstat"
+2017-06-20 23:11:09.248 DEBUG 6328 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Setting request Accept header to [application/json, application/octet-stream]
+2017-06-20 23:11:09.254 DEBUG 6328 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Writing [parameters] using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@6b356bfe]
+2017-06-20 23:11:09.485 DEBUG 6328 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : GET request for "http://127.0.0.1:42000/getstat" resulted in 200 (OK)
+2017-06-20 23:11:09.487 DEBUG 6328 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Reading [class hello.Quote] as "application/octet-stream" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@6b356bfe]
+2017-06-20 23:11:09.513  INFO 6328 --- [pool-1-thread-1] hello.Checker                            : Quote [method=getstat, error=null, start_time=1497992736, current_server=eu1-zcash.flypool.org:3333, available_servers=1, server_status=2, result=[Result [gpuid=0, cudaid=0, busid=0000:01:00.0, name=GeForce GTX 970, gpu_status=2, solver=0, temperature=71, gpu_power_usage=107, speed_sps=222, accepted_shares=1, rejected_shares=0, start_time=1497992737]]]
+2017-06-20 23:11:09.514  INFO 6328 --- [pool-1-thread-1] hello.ScheduledCheck                     : All works
+2017-06-20 23:11:19.047 DEBUG 6328 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Created GET request for "http://127.0.0.1:42000/getstat"
+2017-06-20 23:11:19.048 DEBUG 6328 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Setting request Accept header to [application/json, application/octet-stream]
+2017-06-20 23:11:19.049 DEBUG 6328 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Writing [parameters] using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@6b356bfe]
+2017-06-20 23:11:19.053 DEBUG 6328 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : GET request for "http://127.0.0.1:42000/getstat" resulted in 200 (OK)
+2017-06-20 23:11:19.054 DEBUG 6328 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Reading [class hello.Quote] as "application/octet-stream" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@6b356bfe]
+2017-06-20 23:11:19.056  INFO 6328 --- [pool-1-thread-1] hello.Checker                            : Quote [method=getstat, error=null, start_time=1497992736, current_server=eu1-zcash.flypool.org:3333, available_servers=1, server_status=2, result=[Result [gpuid=0, cudaid=0, busid=0000:01:00.0, name=GeForce GTX 970, gpu_status=2, solver=0, temperature=71, gpu_power_usage=107, speed_sps=222, accepted_shares=1, rejected_shares=0, start_time=1497992737]]]
+2017-06-20 23:11:19.057  INFO 6328 --- [pool-1-thread-1] hello.ScheduledCheck                     : All works
+2017-06-20 23:11:41.986  INFO 1208 --- [main] hello.ApplicationTest                    : Starting ApplicationTest on look-PC with PID 1208 (started by look in c:\_DEV_\mining\gs-consuming-rest-master_api\gs-consuming-rest-master\complete)
+2017-06-20 23:11:41.987  INFO 1208 --- [main] hello.ApplicationTest                    : No active profile set, falling back to default profiles: default
+2017-06-20 23:11:42.035  INFO 1208 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7b7c82a4: startup date [Tue Jun 20 23:11:42 CEST 2017]; root of context hierarchy
+2017-06-20 23:11:43.433  INFO 1208 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2017-06-20 23:11:43.455  INFO 1208 --- [main] hello.ApplicationTest                    : Started ApplicationTest in 1.987 seconds (JVM running for 3.116)
+2017-06-20 23:11:43.569  INFO 1208 --- [Thread-2] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@7b7c82a4: startup date [Tue Jun 20 23:11:42 CEST 2017]; root of context hierarchy
+2017-06-20 23:13:48.266  INFO 7144 --- [main] hello.Application                        : Starting Application on look-PC with PID 7144 (C:\_DEV_\mining\gs-consuming-rest-master_api\gs-consuming-rest-master\complete\target\classes started by look in C:\_DEV_\mining\gs-consuming-rest-master_api\gs-consuming-rest-master\complete)
+2017-06-20 23:13:48.271  INFO 7144 --- [main] hello.Application                        : No active profile set, falling back to default profiles: default
+2017-06-20 23:13:48.373  INFO 7144 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@76b10754: startup date [Tue Jun 20 23:13:48 CEST 2017]; root of context hierarchy
+2017-06-20 23:13:49.550  INFO 7144 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-06-20 23:13:49.562  INFO 7144 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2017-06-20 23:13:49.579  INFO 7144 --- [main] hello.Application                        : Started Application in 1.874 seconds (JVM running for 2.683)
+2017-06-20 23:13:50.627 DEBUG 7144 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Created GET request for "http://127.0.0.1:42000/getstat"
+2017-06-20 23:13:50.784 DEBUG 7144 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Setting request Accept header to [application/json, application/octet-stream]
+2017-06-20 23:13:50.788 DEBUG 7144 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Writing [parameters] using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@6d5e222]
+2017-06-20 23:13:50.833 DEBUG 7144 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : GET request for "http://127.0.0.1:42000/getstat" resulted in 200 (OK)
+2017-06-20 23:13:50.835 DEBUG 7144 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Reading [class hello.Quote] as "application/octet-stream" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@6d5e222]
+2017-06-20 23:13:51.055  INFO 7144 --- [pool-1-thread-1] hello.Checker                            : Quote [method=getstat, error=null, start_time=1497992736, current_server=eu1-zcash.flypool.org:3333, available_servers=1, server_status=2, result=[Result [gpuid=0, cudaid=0, busid=0000:01:00.0, name=GeForce GTX 970, gpu_status=2, solver=0, temperature=71, gpu_power_usage=107, speed_sps=222, accepted_shares=1, rejected_shares=0, start_time=1497992737]]]
+2017-06-20 23:13:51.056  INFO 7144 --- [pool-1-thread-1] hello.ScheduledCheck                     : All works
+2017-06-20 23:14:00.574 DEBUG 7144 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Created GET request for "http://127.0.0.1:42000/getstat"
+2017-06-20 23:14:00.577 DEBUG 7144 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Setting request Accept header to [application/json, application/octet-stream]
+2017-06-20 23:14:00.578 DEBUG 7144 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Writing [parameters] using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@6d5e222]
+2017-06-20 23:14:00.584 DEBUG 7144 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : GET request for "http://127.0.0.1:42000/getstat" resulted in 200 (OK)
+2017-06-20 23:14:00.586 DEBUG 7144 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Reading [class hello.Quote] as "application/octet-stream" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@6d5e222]
+2017-06-20 23:14:00.589  INFO 7144 --- [pool-1-thread-1] hello.Checker                            : Quote [method=getstat, error=null, start_time=1497992736, current_server=eu1-zcash.flypool.org:3333, available_servers=1, server_status=2, result=[Result [gpuid=0, cudaid=0, busid=0000:01:00.0, name=GeForce GTX 970, gpu_status=2, solver=0, temperature=71, gpu_power_usage=107, speed_sps=222, accepted_shares=1, rejected_shares=0, start_time=1497992737]]]
+2017-06-20 23:14:00.590  INFO 7144 --- [pool-1-thread-1] hello.ScheduledCheck                     : All works
+2017-06-20 23:14:10.573 DEBUG 7144 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Created GET request for "http://127.0.0.1:42000/getstat"
+2017-06-20 23:14:10.574 DEBUG 7144 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Setting request Accept header to [application/json, application/octet-stream]
+2017-06-20 23:14:10.575 DEBUG 7144 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Writing [parameters] using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@6d5e222]
+2017-06-20 23:14:10.579 DEBUG 7144 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : GET request for "http://127.0.0.1:42000/getstat" resulted in 200 (OK)
+2017-06-20 23:14:10.581 DEBUG 7144 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Reading [class hello.Quote] as "application/octet-stream" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@6d5e222]
+2017-06-20 23:14:10.583  INFO 7144 --- [pool-1-thread-1] hello.Checker                            : Quote [method=getstat, error=null, start_time=1497992736, current_server=eu1-zcash.flypool.org:3333, available_servers=1, server_status=2, result=[Result [gpuid=0, cudaid=0, busid=0000:01:00.0, name=GeForce GTX 970, gpu_status=2, solver=0, temperature=71, gpu_power_usage=107, speed_sps=222, accepted_shares=1, rejected_shares=0, start_time=1497992737]]]
+2017-06-20 23:14:10.583  INFO 7144 --- [pool-1-thread-1] hello.ScheduledCheck                     : All works
+2017-06-20 23:14:20.574 DEBUG 7144 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Created GET request for "http://127.0.0.1:42000/getstat"
+2017-06-20 23:14:20.575 DEBUG 7144 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Setting request Accept header to [application/json, application/octet-stream]
+2017-06-20 23:14:20.576 DEBUG 7144 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Writing [parameters] using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@6d5e222]
+2017-06-20 23:14:20.580 DEBUG 7144 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : GET request for "http://127.0.0.1:42000/getstat" resulted in 200 (OK)
+2017-06-20 23:14:20.581 DEBUG 7144 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Reading [class hello.Quote] as "application/octet-stream" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@6d5e222]
+2017-06-20 23:14:20.583  INFO 7144 --- [pool-1-thread-1] hello.Checker                            : Quote [method=getstat, error=null, start_time=1497992736, current_server=eu1-zcash.flypool.org:3333, available_servers=1, server_status=2, result=[Result [gpuid=0, cudaid=0, busid=0000:01:00.0, name=GeForce GTX 970, gpu_status=2, solver=0, temperature=71, gpu_power_usage=107, speed_sps=222, accepted_shares=1, rejected_shares=0, start_time=1497992737]]]
+2017-06-20 23:14:20.583  INFO 7144 --- [pool-1-thread-1] hello.ScheduledCheck                     : All works
+2017-06-20 23:14:30.574 DEBUG 7144 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Created GET request for "http://127.0.0.1:42000/getstat"
+2017-06-20 23:14:30.576 DEBUG 7144 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Setting request Accept header to [application/json, application/octet-stream]
+2017-06-20 23:14:30.577 DEBUG 7144 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Writing [parameters] using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@6d5e222]
+2017-06-20 23:14:30.581 DEBUG 7144 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : GET request for "http://127.0.0.1:42000/getstat" resulted in 200 (OK)
+2017-06-20 23:14:30.582 DEBUG 7144 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Reading [class hello.Quote] as "application/octet-stream" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@6d5e222]
+2017-06-20 23:14:30.583  INFO 7144 --- [pool-1-thread-1] hello.Checker                            : Quote [method=getstat, error=null, start_time=1497992736, current_server=eu1-zcash.flypool.org:3333, available_servers=1, server_status=2, result=[Result [gpuid=0, cudaid=0, busid=0000:01:00.0, name=GeForce GTX 970, gpu_status=2, solver=0, temperature=71, gpu_power_usage=107, speed_sps=222, accepted_shares=1, rejected_shares=0, start_time=1497992737]]]
+2017-06-20 23:14:30.584  INFO 7144 --- [pool-1-thread-1] hello.ScheduledCheck                     : All works
+2017-06-20 23:14:47.079  INFO 8840 --- [main] hello.Application                        : Starting Application on look-PC with PID 8840 (C:\_DEV_\mining\gs-consuming-rest-master_api\gs-consuming-rest-master\complete\target\classes started by look in C:\_DEV_\mining\gs-consuming-rest-master_api\gs-consuming-rest-master\complete)
+2017-06-20 23:14:47.085  INFO 8840 --- [main] hello.Application                        : No active profile set, falling back to default profiles: default
+2017-06-20 23:14:47.181  INFO 8840 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@76b10754: startup date [Tue Jun 20 23:14:47 CEST 2017]; root of context hierarchy
+2017-06-20 23:14:48.374  INFO 8840 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-06-20 23:14:48.384  INFO 8840 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2017-06-20 23:14:48.398  INFO 8840 --- [main] hello.Application                        : Started Application in 1.837 seconds (JVM running for 2.632)
+2017-06-20 23:14:49.445 DEBUG 8840 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Created GET request for "http://127.0.0.1:42000/getstat"
+2017-06-20 23:14:49.593 DEBUG 8840 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Setting request Accept header to [application/json, application/octet-stream]
+2017-06-20 23:14:49.597 DEBUG 8840 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Writing [parameters] using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@6ffe313a]
+2017-06-20 23:14:49.877 DEBUG 8840 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : GET request for "http://127.0.0.1:42000/getstat" resulted in 200 (OK)
+2017-06-20 23:14:49.879 DEBUG 8840 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Reading [class hello.Quote] as "application/octet-stream" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@6ffe313a]
+2017-06-20 23:14:49.905  INFO 8840 --- [pool-1-thread-1] hello.Checker                            : Quote [method=getstat, error=null, start_time=1497992736, current_server=eu1-zcash.flypool.org:3333, available_servers=1, server_status=2, result=[Result [gpuid=0, cudaid=0, busid=0000:01:00.0, name=GeForce GTX 970, gpu_status=2, solver=0, temperature=71, gpu_power_usage=107, speed_sps=222, accepted_shares=1, rejected_shares=0, start_time=1497992737]]]
+2017-06-20 23:14:49.906  INFO 8840 --- [pool-1-thread-1] hello.ScheduledCheck                     : All works
+2017-06-20 23:14:59.393 DEBUG 8840 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Created GET request for "http://127.0.0.1:42000/getstat"
+2017-06-20 23:14:59.395 DEBUG 8840 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Setting request Accept header to [application/json, application/octet-stream]
+2017-06-20 23:14:59.396 DEBUG 8840 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Writing [parameters] using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@6ffe313a]
+2017-06-20 23:14:59.400 DEBUG 8840 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : GET request for "http://127.0.0.1:42000/getstat" resulted in 200 (OK)
+2017-06-20 23:14:59.400 DEBUG 8840 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Reading [class hello.Quote] as "application/octet-stream" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@6ffe313a]
+2017-06-20 23:14:59.402  INFO 8840 --- [pool-1-thread-1] hello.Checker                            : Quote [method=getstat, error=null, start_time=1497992736, current_server=eu1-zcash.flypool.org:3333, available_servers=1, server_status=2, result=[Result [gpuid=0, cudaid=0, busid=0000:01:00.0, name=GeForce GTX 970, gpu_status=2, solver=0, temperature=71, gpu_power_usage=107, speed_sps=222, accepted_shares=1, rejected_shares=0, start_time=1497992737]]]
+2017-06-20 23:14:59.403  INFO 8840 --- [pool-1-thread-1] hello.ScheduledCheck                     : All works
+2017-06-20 23:15:09.394 DEBUG 8840 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Created GET request for "http://127.0.0.1:42000/getstat"
+2017-06-20 23:15:09.395 DEBUG 8840 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Setting request Accept header to [application/json, application/octet-stream]
+2017-06-20 23:15:09.396 DEBUG 8840 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Writing [parameters] using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@6ffe313a]
+2017-06-20 23:15:09.400 DEBUG 8840 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : GET request for "http://127.0.0.1:42000/getstat" resulted in 200 (OK)
+2017-06-20 23:15:09.401 DEBUG 8840 --- [pool-1-thread-1] o.s.web.client.RestTemplate              : Reading [class hello.Quote] as "application/octet-stream" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@6ffe313a]
+2017-06-20 23:15:09.403  INFO 8840 --- [pool-1-thread-1] hello.Checker                            : Quote [method=getstat, error=null, start_time=1497992736, current_server=eu1-zcash.flypool.org:3333, available_servers=1, server_status=2, result=[Result [gpuid=0, cudaid=0, busid=0000:01:00.0, name=GeForce GTX 970, gpu_status=2, solver=0, temperature=71, gpu_power_usage=107, speed_sps=222, accepted_shares=1, rejected_shares=0, start_time=1497992737]]]
+2017-06-20 23:15:09.403  INFO 8840 --- [pool-1-thread-1] hello.ScheduledCheck                     : All works
