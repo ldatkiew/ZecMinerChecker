@@ -1,4 +1,4 @@
-package com.lda.main;
+package com.lda.checker;
 
 import java.util.Arrays;
 
@@ -12,7 +12,7 @@ import org.springframework.http.converter.json.MappingJackson2HttpMessageConvert
 import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.web.client.RestTemplate;
 
-@SpringBootApplication
+@SpringBootApplication()
 @EnableScheduling
 public class Application {
 

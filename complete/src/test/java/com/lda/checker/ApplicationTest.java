@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.lda.main;
+package com.lda.checker;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
