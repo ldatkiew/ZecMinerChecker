@@ -15,13 +15,11 @@ public class MinerStat {
 	private String current_server; // "eu1-zcash.flypool.org:3333",
 	private Long available_servers; // 1,
 	private Long server_status; // 2,
-	
+
 	@JsonProperty("result")
 	private List<Result> results = new ArrayList<>();
-	
-	
-	public static MinerStat createEmptyStat()
-	{
+
+	public static MinerStat createEmptyStat() {
 		MinerStat minerStat = new MinerStat();
 		minerStat.setError("Created empty stat");
 		return minerStat;
@@ -75,9 +73,6 @@ public class MinerStat {
 		this.server_status = server_status;
 	}
 
-
-
-
 	public List<Result> getResults() {
 		return results;
 	}
@@ -96,11 +91,14 @@ public class MinerStat {
 	public boolean isAllWorking() {
 
 		boolean allWorks = true;
+		if (results.isEmpty()) {
+			allWorks = false;
+		}
+
 		for (Result result : results) {
 			allWorks &= result.isWorking();
 		}
 		return allWorks;
 	}
-	
-	
+
 }
