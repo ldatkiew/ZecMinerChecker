@@ -20,9 +20,15 @@ public class ScheduledCheck {
 	@Autowired
 	private Restarter restarter;
 	
-	@Scheduled(initialDelay = 300000, fixedRate = 30000)
+//	@Autowired
+//	private Environment environment;
+	
+//	@Scheduled(initialDelay = 300000, fixedRate = 30000)
+	@Scheduled(initialDelay = 3000, fixedRate = 5000)
 	public void checkMiner()
 	{
+//		log.info(environment.getProperty("logging.file"));
+		
 		boolean result = checker.check();
 		if(result != true)
 		{
