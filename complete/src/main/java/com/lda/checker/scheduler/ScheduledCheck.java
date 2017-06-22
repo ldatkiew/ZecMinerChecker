@@ -27,8 +27,8 @@ public class ScheduledCheck {
 //	@Autowired
 //	private Environment environment;
 	
-//	@Scheduled(initialDelay = 300000, fixedRate = 30000)
-	@Scheduled(initialDelay = 3000, fixedRate = 5000)
+	@Scheduled(initialDelay = 300000, fixedRate = 30000)
+//	@Scheduled(initialDelay = 3000, fixedRate = 5000)
 	public void checkMiner()
 	{
 //		log.info(environment.getProperty("logging.file"));
@@ -37,7 +37,7 @@ public class ScheduledCheck {
 		if(result != true)
 		{
 			notWorkingCounter++;
-			log.info("Something going wrong for: " + notWorkingCounter + " time");
+			log.info("Something went wrong for: " + notWorkingCounter + " time(s)");
 		}
 		else
 		{
