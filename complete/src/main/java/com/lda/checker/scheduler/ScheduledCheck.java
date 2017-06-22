@@ -12,7 +12,11 @@ import com.lda.checker.web.Checker;
 @Component
 public class ScheduledCheck {
 
+	private static final int NOT_WORKING_LIMIT = 1;
+
 	private static final Logger log = LoggerFactory.getLogger(ScheduledCheck.class);
+	
+	private int notWorkingCounter = 0;
 	
 	@Autowired
 	private Checker checker;
@@ -32,12 +36,18 @@ public class ScheduledCheck {
 		boolean result = checker.check();
 		if(result != true)
 		{
-			log.info("Restarting mashines");
-			restarter.restart();
+			notWorkingCounter++;
+			log.info("Something going wrong for: " + notWorkingCounter + " time");
 		}
 		else
 		{
 			log.info("All GPU's works");;
+		}
+		
+		if(notWorkingCounter > NOT_WORKING_LIMIT)
+		{
+			log.info("Restarting mashines");
+			restarter.restart();
 		}
 	}
 }
