@@ -81,11 +81,27 @@ public class MinerStat {
 		this.results = results;
 	}
 
+
+
 	@Override
 	public String toString() {
-		return "Quote [method=" + method + ", error=" + error + ", start_time=" + start_time + ", current_server="
-				+ current_server + ", available_servers=" + available_servers + ", server_status=" + server_status
-				+ ", result=" + results + "]";
+		StringBuilder builder = new StringBuilder();
+		builder.append("MinerStat [method=");
+		builder.append(method);
+		builder.append(", error=");
+		builder.append(error);
+		builder.append(", start_time=");
+		builder.append(start_time);
+		builder.append(", current_server=");
+		builder.append(current_server);
+		builder.append(", available_servers=");
+		builder.append(available_servers);
+		builder.append(", server_status=");
+		builder.append(server_status);
+		builder.append(", results=");
+		builder.append(results);
+		builder.append("]");
+		return builder.toString();
 	}
 
 	public boolean isAllWorking() {

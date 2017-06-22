@@ -89,12 +89,37 @@ public class Result {
 	public void setStart_time(Long start_time) {
 		this.start_time = start_time;
 	}
+
+	
 	@Override
 	public String toString() {
-		return "Result [gpuid=" + gpuid + ", cudaid=" + cudaid + ", busid=" + busid + ", name=" + name + ", gpu_status="
-				+ gpu_status + ", solver=" + solver + ", temperature=" + temperature + ", gpu_power_usage="
-				+ gpu_power_usage + ", speed_sps=" + speed_sps + ", accepted_shares=" + accepted_shares
-				+ ", rejected_shares=" + rejected_shares + ", start_time=" + start_time + "]";
+		StringBuilder builder = new StringBuilder();
+		builder.append("Result [gpuid=");
+		builder.append(gpuid);
+		builder.append(", cudaid=");
+		builder.append(cudaid);
+		builder.append(", busid=");
+		builder.append(busid);
+		builder.append(", name=");
+		builder.append(name);
+		builder.append(", gpu_status=");
+		builder.append(gpu_status);
+		builder.append(", solver=");
+		builder.append(solver);
+		builder.append(", temperature=");
+		builder.append(temperature);
+		builder.append(", gpu_power_usage=");
+		builder.append(gpu_power_usage);
+		builder.append(", speed_sps=");
+		builder.append(speed_sps);
+		builder.append(", accepted_shares=");
+		builder.append(accepted_shares);
+		builder.append(", rejected_shares=");
+		builder.append(rejected_shares);
+		builder.append(", start_time=");
+		builder.append(start_time);
+		builder.append("]");
+		return builder.toString();
 	}
 	public boolean isWorking() {
 
